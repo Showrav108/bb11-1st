@@ -230,6 +230,7 @@ div ul li{
     border-radius: 13px;
     background: rgb(240, 232, 232);
     padding:30px 30px;
+    margin: 20px 0px;
 }
 .news-description1{
     padding-left: 24px;
@@ -240,4 +241,37 @@ div ul li{
     border-radius: 10px;
     height: 190px;
     width: 280px;
+}
+/* donate styles */
+.donate-title{
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.donate-details{
+    color: rgb(75,77,76);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.donate-btn{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.btn5{
+    margin: 5px 50px;
+    padding: 20px 60px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    border-radius: 8px;
+}
+.btn5:hover{
+    background-color: rgb(198,228,214);
 }
