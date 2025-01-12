@@ -41,7 +41,8 @@ nav ul li{
     justify-content: space-between;
     background-color: rgb(198,228,214);
     margin: 20px 0px; 
-    padding: 20px 70px; 
+    padding: 20px 70px;
+    border-radius: 12px; 
 }
 .banner-title{
     color: rgba(14, 14, 14, 0.5);
@@ -65,6 +66,7 @@ nav ul li{
     font-weight: 400;
     line-height: 20px;
     margin-top: 10px;
+
 }
 .btn-explore:hover{
     background-color: rgb(75, 77, 76);
@@ -75,4 +77,84 @@ div ul li{
 .banner-image{
     height: 350px;
     width: 390px;
+}
+/* vision styles */
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.vision-details{
+    color:  rgb(75, 77, 76);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 28px 0px;
+}
+.vision-obectives{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.digital{
+    border: 1px solid rgba(84, 144, 245, 0.2);
+    border-radius: 12px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 30px;
+    /* margin-right: 60px; */
+}
+.green{
+    border: 1px solid  rgb(165, 228, 198);
+    border-radius: 12px;
+    background: rgb(165, 228, 198);
+    padding: 42px;
+    /* margin-right: 60px; */
+}
+.modern{
+    border: 1px solid rgb(247, 235, 207);
+    border-radius: 12px;
+    background: rgb(247, 235, 207);
+    padding: 30px 40px;
+}
+.btn1{
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: rgb(84, 144, 245);
+    color: aliceblue;
+}
+.btn2{
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: rgb(9, 161, 92);
+    color: aliceblue;
+}
+.btn3{
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: rgb(255, 194, 57);
+    color: aliceblue;
+}
+.btn1:hover{
+    background-color: rgb(75, 77, 76);
+}
+.btn2:hover{
+    background-color: rgb(75, 77, 76);
+}
+.btn3:hover{
+    background-color: rgb(75, 77, 76);
+}
+.title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+.details{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 10px;
 }
